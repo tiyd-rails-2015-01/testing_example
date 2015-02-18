@@ -1,0 +1,18 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+mason:
+  name: Mason
+  email: mason@awesome.com
+  in_state: true
+
+jess:
+  name: Jess
+  email: jess@awesome.com
+  in_state: false
+
+<% 3.times do |i| %>
+subscriber_<%= i %>:
+  name: MyString
+  email: MyString
+  in_state: false
+<% end %>

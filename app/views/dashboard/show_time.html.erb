@@ -1,0 +1,8 @@
+<h1><%= Time.now.strftime("%H:%M") %></h1>
+
+<%= link_to "The happiest place on earth", "http://disney.com", class: "blue" %>
+<%= link_to "The 2nd happiest place on earth", subscribers_path, id: "go-to-subscribers" %>
+
+<% @subscribers.each do |s| %>
+  <p class="subscriber_name"><%= s.name %></p>
+<% end %>

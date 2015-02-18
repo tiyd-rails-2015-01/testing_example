@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+masons:
+  price: 100
+  journal: Nature
+  paid: false
+  starts_on: 2015-02-18
+  subscriber: mason
+
+jesss:
+  price: 100
+  journal: Nature Cell Biology
+  paid: false
+  starts_on: 2015-02-18
+  subscriber: jess
